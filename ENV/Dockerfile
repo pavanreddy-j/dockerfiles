@@ -1,4 +1,4 @@
 FROM almalinux:9
 ENV course="Devops with AWS" \
-    trainer="siva"
+    trainer="siva" \
     duration="120"
