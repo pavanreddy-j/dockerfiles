@@ -3,6 +3,6 @@ ENV course="Devops with AWS" \
     trainer="siva" \
     duration="120"
 # here user is key and someuser is default value
-ARG ${username:-some_user}
-RUN echo "Hello User: ${username}"
+ARG USERNAME=Pavan
+RUN echo "Hello User: ${USERNAME}"
 CMD ["sleep", "100"]    
